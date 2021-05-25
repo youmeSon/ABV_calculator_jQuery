@@ -16,5 +16,46 @@
   </head>
   <body>
     <header>Alcohol by volume Calculator</header>
+    <div class="container">
+      <!-- Alcohol options -->
+      <label for="alcohol_option">What are you making?</label>
+        <select
+          name="alcohol_option"
+          id="alcohol_option"
+          placeholder="alcohol option"
+        >
+          <option placeholder="cider">cider</option>
+          <option placeholder="beer">beer</option>
+          <option placeholder="wine">wine</option>
+          <option placeholder="mead">mead</option>
+        </select>
+        <!-- Beverage amount -->
+        <label for="beverage_amount">
+          How much basic beverage do you have?
+        </label>
+        <input
+          id="beverage_amount"
+          type="number"
+          placeholder="ml"
+        />
+         <!-- Sugar amount -->
+        <label id="sugar_amount">How much sugar do you want to add?</label>
+        <input
+          type="number"
+          id="sugar_amount"
+          placeholder="gram"
+        />
+        <label id="final_volume">What's the final volumn in litres?</label>
+        <input
+          type="number"
+          id="final_volume"
+          placeholder="Litre"
+        />
+      </form>
+      <button class="cal_button">Calculate</button>
+      <div class="result">
+        <h2 class="cal_result">Result: Your has %</h2>
+      </div>
+    </div>
   </body>
 </html>
