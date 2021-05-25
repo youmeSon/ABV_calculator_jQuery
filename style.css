@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: pink;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+  height: 50rem;
+  background-color: palevioletred;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.header {
+  width: 100%;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+}
+
+label {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+select,
+input {
+  width: 25rem;
+  height: 2.5rem;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.cal_button {
+  width: 8rem;
+  height: 3rem;
+  margin: auto;
+  margin-top: 2.5rem;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: pink;
+  color: rgb(172, 120, 120) smoke;
+  cursor: pointer;
+  transition: transform 350ms ease-in;
+}
+
+.cal_button:hover {
+  transform: scale(1.1);
+  background-color: rgb(184, 226, 243);
+  color: rgb(223, 33, 160);
+}
+
+.cal_result {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
